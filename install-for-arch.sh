@@ -5,9 +5,9 @@ echo "Installing depencies"
 sudo pacman -S kitty base-devel nitrogen ttf-iosevka-nerd xorg xorg-xinit
 cd dwm/
 sudo make clean install
-cd dmenu/
+cd ../dmenu/
 sudo make clean install 
-cd slstatus/
+cd ../slstatus/
 sudo make clean install 
 
 echo "slstatus &" >> ~/.xinitrc
