@@ -16,4 +16,9 @@ Terminal: Kitty
 
 other dotfiles: https://github.com/FyrN22/Hyprland-Dotfiles
 
-Credits: https://suckless.org/
+Credits: 
+
+https://suckless.org/
+
+https://github.com/catppuccin/catppuccin
+
