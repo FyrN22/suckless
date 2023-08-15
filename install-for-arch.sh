@@ -6,9 +6,9 @@ sudo pacman -S kitty base-devel nitrogen ttf-iosevka-nerd xorg xorg-xinit
 cd dwm/
 sudo make clean install
 cd dmenu/
-sudo make clean install dmenu/
+sudo make clean install 
 cd slstatus/
-sudo make clean install slstatus/
+sudo make clean install 
 
 echo "slstatus &" >> ~/.xinitrc
 echo "nitrogen &" >> ~/.xinitrc 
