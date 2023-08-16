@@ -15,9 +15,7 @@ echo "nitrogen &" >> ~/.xinitrc
 echo "exec dwm" >> ~/.xinitrc
 clear
 echo "Use startx to launch dwm"
-sleep 2s 
-clear
-echo "some default keybinds = terminal = super + enter, dmenu = super+D"
-sleep 4s
+echo "Some default keybinds: terminal = super + enter | dmenu = super+D | toggle tiling = super+T | fullscreen = super+F "
+
 
 
