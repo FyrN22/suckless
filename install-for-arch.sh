@@ -3,7 +3,8 @@ sleep 2s
 clear
 echo "Installing depencies"
 sudo pacman -S kitty base-devel nitrogen ttf-iosevka-nerd xorg xorg-xinit
-cd dwm/
+git clone https://github.com/FyrN22/suckless.git
+cd suckless/dwm/
 sudo make clean install
 cd ../dmenu/
 sudo make clean install 
