@@ -2,7 +2,7 @@ echo "This script will install you dwm, dmenu and slstatus"
 sleep 2s 
 clear
 echo "Installing depencies"
-sudo pacman -S kitty base-devel nitrogen ttf-iosevka-nerd xorg xorg-xinit
+sudo pacman -S kitty base-devel git nitrogen ttf-iosevka-nerd xorg xorg-xinit
 git clone https://github.com/FyrN22/suckless.git
 cd suckless/dwm/
 sudo make clean install
